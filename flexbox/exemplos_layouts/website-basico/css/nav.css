@@ -1,0 +1,33 @@
+nav ul{
+    display: flex; 
+    flex-direction: row; 
+    margin: 5px 0; 
+    padding: 0;
+    align-items: flex-start; 
+    justify-content: flex-start;  
+    background: #036;
+}
+
+nav ul li{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    list-style: none; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background 0.2s; 
+}
+
+nav ul li:hover{
+    background: #069;
+}
+
+nav ul li + li{
+    margin-left: 5px; 
+}
+
+nav ul li a{
+    text-decoration: none; 
+    color: #FFF; 
+}

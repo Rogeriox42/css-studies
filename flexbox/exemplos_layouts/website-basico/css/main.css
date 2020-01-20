@@ -1,0 +1,28 @@
+*{
+    font-family: 'Century gothic';
+    box-sizing: border-box; 
+}
+
+.main{
+    display: flex; 
+    flex-direction: row; 
+}
+
+.banner{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    height: 250px; 
+    background: #069; 
+    color: #FFF;
+}
+
+footer{
+    margin-top: 5px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background: #069; 
+    color: #FFF;
+}

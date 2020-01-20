@@ -1,0 +1,23 @@
+@media(max-width: 1000px){
+    .main{
+        flex-direction: column; 
+    }
+    .about{
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 580px){
+    nav ul{
+        flex-direction: column; 
+    }
+
+    nav ul li{
+        width: 100%;
+    }
+
+    nav ul li + li{
+        margin-left: 0; 
+    }
+
+}

@@ -34,3 +34,5 @@ center - Alinha ao centro do container
 flex-end - Alinha ao fim do container 
 baseline - - Alinha de acordo com a linha base do container 
 stretch - Aumenta a altura dos elementos filhos para prencher o elemento pai (Não funciona se o elemento filho já tiver altura 'height' definido)
+
+align-content 

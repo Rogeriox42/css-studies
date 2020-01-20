@@ -1,0 +1,23 @@
+.timeline{
+    background: #FFF;
+    padding: 20px;
+}
+
+.timeline, article{
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline strong.title{
+    font-size: 25px; 
+    margin-bottom: 20px; 
+}
+
+.timeline span{
+    font-weight: bold; 
+    font-size: 12px; 
+    font-family: sans-serif; 
+    margin-bottom: 10px; 
+}
+
+
